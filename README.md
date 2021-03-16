@@ -10,6 +10,7 @@
 - Search by image.
 
 [View Demo Video.](https://youtu.be/eGRyIeaFnyM)
+<br>
 ![image](https://user-images.githubusercontent.com/74314248/111274784-1696ad80-863e-11eb-862d-fe99ec95e2ca.png)
 
 ![image](https://user-images.githubusercontent.com/74314248/111274878-35953f80-863e-11eb-94ed-4c7ab8106156.png)
