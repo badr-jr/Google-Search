@@ -1,0 +1,100 @@
+#googleLogo{
+    alt:"Cat";
+    height:92px;
+    width:272px;
+}
+
+#homeForm,#imageForm {
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+#searchBar {
+    width: 450px;
+    height: 35px;
+    margin: 0 auto;
+    border:solid 1px #ccc;
+    border-radius: 20px;
+    outline-width: 0;                   // remove border highlighting 
+    padding-left: 10px;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(245, 245,245);
+    border-radius: 5px;
+    border:solid 1px #ccc;
+}
+#label{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+    max-width: 215px;    
+}
+#homeLabel{
+    text-align: right;
+}
+#advancedTitle{
+    margin-left: 30px;
+    color: #cc0000;
+}
+.line{
+width: 100%;
+height: 15px;
+border-bottom: 1px solid #ccc;
+}
+.searchAdvanced{
+    width: 450px;
+    height: 20px;
+    margin-top: 9px;
+    border:solid 1px #ccc;
+    border-radius: 3px;
+    outline-width: 0;
+    flex: 2;
+}
+.searchAdvanced:focus {
+    box-shadow: 0 0 3px rgb(0, 0, 255);
+  }
+#advancedForm > div {
+    margin-left: 3%;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#advancedForm > div > p{
+    line-height: 1;
+    font-size: 14px;
+    flex:3;
+    margin-left: 5px;
+}
+#advancedForm > div > label{
+    margin-top: 11px;
+    flex:1;
+}
+#instructionsTitle{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.advancedBtn{
+    width: 130px;
+    height: 30px;
+    background-color: #4d90fe;
+    border-radius: 2px;
+    border:solid 1px #ccc;
+    color:white;
+    margin-left: 40.2%;
+}
+@media(max-width:1050px){
+    #advancedForm > div[id="instructionsTitle"] >h5{
+        display: none;
+    }
+    #advancedForm > div{
+        flex-direction: column;
+    }
+}
